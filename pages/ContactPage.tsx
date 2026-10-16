@@ -157,26 +157,37 @@ export const ContactPage: React.FC<ContactPageProps> = ({ initialService, onNavi
 
     setIsSubmitting(true);
 
-    const briefPayload = {
-      name: cleanName,
-      email: cleanEmail,
-      company: formData.company.trim() || undefined,
-      services: selectedServices,
-      budget: selectedBudget,
-      timeline: '2-4 Weeks',
-      details: `${cleanDetails}${formData.phone ? `\n\n[Client Phone/WhatsApp: ${formData.phone.trim()}]` : ''}`,
-      source: 'contact-page' as const
-    };
+    try {
+      const briefPayload = {
+        name: cleanName,
+        email: cleanEmail,
+        company: formData.company.trim() || undefined,
+        services: selectedServices,
+        budget: selectedBudget,
+        timeline: '2-4 Weeks',
+        details: `${cleanDetails}${formData.phone ? `\n\n[Client Phone/WhatsApp: ${formData.phone.trim()}]` : ''}`,
+        source: 'contact-page' as const
+      };
 
-    const saved = saveBrief(briefPayload);
-    setSubmittedBrief(saved);
+      const saved = saveBrief(briefPayload);
+      const result = await sendBriefToEmail(saved);
 
-    await sendBriefToEmail(saved);
+      if (!result.success) {
+        console.warn('Project inquiry email submission failed:', result.error);
+        setFormError('We could not send your inquiry. Please try again or email qarviontech@gmail.com directly.');
+        return;
+      }
 
-    setIsSubmitting(false);
-    setIsSuccess(true);
-    setShowToast(true);
-    window.scrollTo({ top: 180, behavior: 'smooth' });
+      setSubmittedBrief(saved);
+      setIsSuccess(true);
+      setShowToast(true);
+      window.scrollTo({ top: 180, behavior: 'smooth' });
+    } catch (error) {
+      console.error('Unexpected project inquiry submission error:', error);
+      setFormError('We could not send your inquiry. Please try again or email qarviontech@gmail.com directly.');
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   const generateWhatsAppUrl = () => {

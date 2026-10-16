@@ -140,12 +140,18 @@ const ReviewsAndContact: React.FC = () => {
       });
 
       // Forward directly to qarviontech@gmail.com
-      await sendBriefToEmail(newBrief);
+      const result = await sendBriefToEmail(newBrief);
+
+      if (!result.success) {
+        console.warn('Project inquiry email submission failed:', result.error);
+        setFormError('We could not send your inquiry. Please try again or email qarviontech@gmail.com directly.');
+        return;
+      }
 
       setIsSubmitted(true);
       setShowToast(true);
     } catch {
-      setFormError('An unexpected error occurred. Please try again or email us directly.');
+      setFormError('We could not send your inquiry. Please try again or email qarviontech@gmail.com directly.');
     } finally {
       setIsSubmitting(false);
     }
