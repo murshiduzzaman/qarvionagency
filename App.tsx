@@ -1,6 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { SpeedInsights } from '@vercel/speed-insights/react';
+import { Analytics } from '@vercel/analytics/react';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import BackToTop from './components/BackToTop';
@@ -331,6 +332,7 @@ const App: React.FC = () => {
       <Footer onNavigate={navigateTo} />
       <BackToTop />
       <SpeedInsights />
+      <Analytics />
       
       {/* Background Decorative Elements */}
       <div className="fixed inset-0 pointer-events-none z-[-1]">
