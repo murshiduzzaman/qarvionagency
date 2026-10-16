@@ -1,0 +1,8 @@
+{
+  "name": "Remix Qarvion Websites final",
+  "description": "A high-end modern agency landing page featuring a premium dark blue gradient theme, glassmorphism elements, and smooth scroll animations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

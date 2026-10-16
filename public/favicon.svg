@@ -1,0 +1,141 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="230 190 520 580" fill="none" width="100%" height="100%">
+  <defs>
+    <!-- Master Vibrant Futuristic Gradient -->
+    <linearGradient id="qGradTop" x1="30%" y1="20%" x2="75%" y2="80%">
+      <stop offset="0%" stop-color="#E84DF8" />
+      <stop offset="35%" stop-color="#C026D3" />
+      <stop offset="70%" stop-color="#9333EA" />
+      <stop offset="100%" stop-color="#7C3AED" />
+    </linearGradient>
+
+    <linearGradient id="qGradLeft" x1="20%" y1="30%" x2="60%" y2="75%">
+      <stop offset="0%" stop-color="#C026D3" />
+      <stop offset="40%" stop-color="#9333EA" />
+      <stop offset="80%" stop-color="#7C3AED" />
+      <stop offset="100%" stop-color="#6366F1" />
+    </linearGradient>
+
+    <linearGradient id="qGradRight" x1="45%" y1="45%" x2="72%" y2="78%">
+      <stop offset="0%" stop-color="#9333EA" />
+      <stop offset="30%" stop-color="#7C3AED" />
+      <stop offset="65%" stop-color="#6366F1" />
+      <stop offset="90%" stop-color="#4F46E5" />
+      <stop offset="100%" stop-color="#3B82F6" />
+    </linearGradient>
+
+    <!-- Specular Bevel Line Highlight -->
+    <linearGradient id="qSpecular" x1="25%" y1="18%" x2="72%" y2="45%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.95" />
+      <stop offset="40%" stop-color="#F5D0FE" stop-opacity="0.85" />
+      <stop offset="75%" stop-color="#C084FC" stop-opacity="0.5" />
+      <stop offset="100%" stop-color="#818CF8" stop-opacity="0.1" />
+    </linearGradient>
+
+    <!-- Edge Rim Glow for 3D depth -->
+    <linearGradient id="qRim" x1="65%" y1="40%" x2="72%" y2="80%">
+      <stop offset="0%" stop-color="#A5B4FC" stop-opacity="0.9" />
+      <stop offset="50%" stop-color="#818CF8" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0.95" />
+    </linearGradient>
+
+    <!-- Neon Glow Filter -->
+    <filter id="qNeonGlow" x="-20%" y="-20%" width="140%" height="140%" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="18" result="coloredBlur" />
+      <feMerge>
+        <feMergeNode in="coloredBlur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Ambient Background Glow -->
+  <g opacity="0.4" filter="url(#qNeonGlow)">
+    <polygon points="344,318 485,226 708,430 612,465 485,348 402,380" fill="#C026D3" />
+    <polygon points="274,350 376,415 376,492 560,655 485,712 274,525" fill="#9333EA" />
+    <polygon points="448,508 535,465 615,540 615,465 708,430 708,745" fill="#4F46E5" />
+  </g>
+
+  <!-- PIECE 1: Top Chevron Hook -->
+  <g id="top-chevron">
+    <polygon 
+      points="344,318 485,226 708,430 612,465 485,348 402,380" 
+      fill="url(#qGradTop)" 
+    />
+    <!-- Specular rim highlight on upper ridge -->
+    <polyline 
+      points="344,318 485,226 708,430" 
+      fill="none" 
+      stroke="url(#qSpecular)" 
+      stroke-width="5.5" 
+      stroke-linecap="round" 
+      stroke-linejoin="round" 
+    />
+    <!-- Subtle inner bevel edge -->
+    <polyline 
+      points="402,380 485,348 612,465" 
+      fill="none" 
+      stroke="#FFFFFF" 
+      stroke-opacity="0.28" 
+      stroke-width="2.5" 
+      stroke-linecap="round" 
+    />
+  </g>
+
+  <!-- PIECE 2: Left Angular Band -->
+  <g id="left-band">
+    <polygon 
+      points="274,350 376,415 376,492 560,655 485,712 274,525" 
+      fill="url(#qGradLeft)" 
+    />
+    <!-- Specular highlight on left outer face -->
+    <polyline 
+      points="376,415 274,350 274,525 485,712" 
+      fill="none" 
+      stroke="url(#qSpecular)" 
+      stroke-width="5" 
+      stroke-linecap="round" 
+      stroke-linejoin="round" 
+    />
+    <!-- Inner edge reflection -->
+    <polyline 
+      points="376,415 376,492 560,655" 
+      fill="none" 
+      stroke="#FFFFFF" 
+      stroke-opacity="0.25" 
+      stroke-width="2.5" 
+    />
+  </g>
+
+  <!-- PIECE 3: Right Q-Body & Sharp Tail -->
+  <g id="right-tail">
+    <polygon 
+      points="448,508 535,465 615,540 615,465 708,430 708,745" 
+      fill="url(#qGradRight)" 
+    />
+    <!-- Outer vertical edge highlight -->
+    <polyline 
+      points="708,430 708,745" 
+      fill="none" 
+      stroke="url(#qRim)" 
+      stroke-width="4.5" 
+      stroke-linecap="round" 
+    />
+    <!-- Inner notch bevel line -->
+    <polyline 
+      points="448,508 535,465 615,540 615,465 708,430" 
+      fill="none" 
+      stroke="#FFFFFF" 
+      stroke-opacity="0.32" 
+      stroke-width="3" 
+      stroke-linejoin="round" 
+    />
+    <!-- Sharp tail under-edge line -->
+    <polyline 
+      points="448,508 708,745" 
+      fill="none" 
+      stroke="#6366F1" 
+      stroke-opacity="0.5" 
+      stroke-width="3" 
+    />
+  </g>
+</svg>

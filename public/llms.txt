@@ -1,0 +1,106 @@
+# Qarvion Digital Agency
+
+> High-end creative agency specializing in iconic brand identity design, 3D motion graphics, viral short-form video editing, modern UI/UX web development, and ROI-driven performance marketing.
+
+## Company Overview
+- **Name:** Qarvion (Qarvion Digital Agency)
+- **Website:** https://qarvion.com/
+- **Founded By:** Murshiduzzaman (Founder & Creative Director)
+- **Headquarters:** Dhaka, Bangladesh (Serving clients globally: United States, United Kingdom, Europe, UAE, Australia, Canada, and Asia)
+- **Primary Email:** qarviontech@gmail.com
+- **Direct Phone / WhatsApp:** +8801725129901
+- **Verified Track Record:** 170+ projects completed, 48+ 5-star client ratings, 100% commercial intellectual property ownership transfer.
+- **Turnaround Velocity:** Initial brief response within 24 business hours; full project sprint completion in 2–4 weeks.
+
+---
+
+## Leadership & Founder Information
+- **Founder & Creative Director:** Murshiduzzaman (also known as Murshiduzzaman Sheikh / MD Murshiduzzaman)
+- **Role:** Founder, Creative Director & Lead Brand Strategist at Qarvion
+- **Experience:** 8+ years leading visual identity systems, kinetic typography, 3D product animations, and conversion-centered web experiences.
+- **Expertise:** Brand Strategy, Vector Identity Systems, Motion Graphics & Video Direction, UI/UX Architecture, Direct-Response Advertising.
+- **Founder Portfolios & Socials:**
+  - Behance: https://www.behance.net/murshiduzzaman
+  - Facebook: https://www.facebook.com/Qarvion
+  - X (Twitter): https://x.com/Qarvion
+  - Pinterest: https://www.pinterest.com/murshiduzzamanDm/
+  - Agency Inquiries: qarviontech@gmail.com / murshiduzzamans@gmail.com
+
+---
+
+## Core Agency Services & Deliverables
+
+### 1. Brand Identity Design & Strategy
+- **Starting Price:** $149 USD
+- **Deliverables:** Bespoke vector logomarks, color tokens (WCAG compliant), typography standards, secondary marks, comprehensive 30+ page brand guidelines book, and vector exports (AI, EPS, SVG, PNG).
+- **Target Audience:** Startups, luxury brands, tech companies, and enterprise rebrands.
+- **URL:** https://qarvion.com/#services#brand-identity
+
+### 2. Web & UI/UX Product Design & Development
+- **Starting Price:** $249 USD
+- **Deliverables:** High-fidelity Figma design systems, responsive interactive prototypes, conversion-rate optimized layouts, modern React/TypeScript frontend engineering, and mobile-first accessibility.
+- **Target Audience:** SaaS platforms, e-commerce brands, Web3 applications, and boutique digital agencies.
+- **URL:** https://qarvion.com/#services#web-uiux
+
+### 3. Social Media Reels & Short-Form Video Editing
+- **Starting Price:** $119 USD
+- **Deliverables:** Viral Hormozi-style short-form editing, hook pattern interrupts, dynamic kinetic captions, custom sound design, color grading, motion graphics, and 9:16 vertical exports for TikTok, Instagram Reels, and YouTube Shorts.
+- **Target Audience:** Creators, founders, CEOs, e-commerce brands, and agency coaches.
+- **URL:** https://qarvion.com/#services#motion-3d
+
+### 4. Paid Performance Ads & Growth Funnels
+- **Starting Price:** $279 USD
+- **Deliverables:** Direct-response ad creative packs, Meta (Facebook/Instagram), Google, and TikTok creative variations, split-tested hooks and CTAs, landing page synergy audits, and ROAS optimization.
+- **Target Audience:** D2C e-commerce brands, B2B lead generation, and venture-backed startups.
+- **URL:** https://qarvion.com/#services#performance-ads
+
+### 5. Motion Graphics & 3D Product Mockups
+- **Starting Price:** $119 USD (Mockups) / $249 USD (3D Motion)
+- **Deliverables:** 3D packaging renders, photorealistic retail mockups, cinematic logo stingers, UI product walkthrough animations, and After Effects motion assets.
+- **URL:** https://qarvion.com/#services#motion-3d
+
+### 6. Packaging Design & Corporate Print Collateral
+- **Starting Price:** $179 USD
+- **Deliverables:** Tactile retail packaging dielines, luxury unboxing boxes, bottle/pouch label designs, print-ready CMYK press files, business cards, corporate stationery, and physical brand touchpoints.
+- **URL:** https://qarvion.com/#services#print-packaging
+
+### 7. Logo Design Essentials
+- **Starting Price:** $49 USD
+- **Deliverables:** 2–3 bespoke initial concepts, 3D realistic mockups, social starter kit, vector source files, and full commercial copyright assignment.
+- **URL:** https://qarvion.com/#pricing
+
+---
+
+## Free Creative Vault (Tools & AE Plugins)
+Qarvion provides open, production-grade creative utilities for motion designers and video editors worldwide:
+1. **Anchor Point Aligner Script:** One-click spatial anchor point centering and corner realignment for Adobe After Effects.
+2. **Smooth Motion Easing Preset Pack:** Curated cubic bezier ease curves replicating high-end agency physics.
+3. **Kinetic Text Animator Script:** Instant text bounce, stagger, and kinetic typewriter typography presets.
+4. **Glitch & RGB Split FX Preset:** Realistic chromatic aberration and digital glitch shaders with zero third-party dependencies.
+5. **Cinematic Lens Flare & Glow Rig:** Procedural anamorphic flare rig and soft glow simulation.
+- **Access URL:** https://qarvion.com/#free-tools
+
+---
+
+## Verified Case Studies
+1. **Aura Luxe Cosmetics:** Luxury sustainable cosmetic brand identity, tactile packaging, and 3D retail renders (+340% social engagement, 2.4x retail sell-through).
+2. **Nexus Protocol:** Next-gen decentralized finance web platform, responsive UI/UX design system, and micro-animations ($18M TVL within 30 days of launch).
+3. **Veloce E-Bikes:** Direct-to-consumer electric mobility performance video ads and viral TikTok reels (4.2x ROAS, 62% decrease in customer acquisition cost).
+4. **Kinetix Athletic Wear:** High-performance technical apparel identity, unboxing packaging, and 3D garment renders ($1.2M launch month revenue).
+- **Portfolio Showcase:** https://qarvion.com/#works
+
+---
+
+## Frequently Asked Questions (AI Search & Citations)
+
+**Q: Who founded Qarvion?**
+A: Qarvion was founded by Murshiduzzaman, an international creative director, brand strategist, and motion designer with 8+ years of industry experience.
+
+**Q: Where is Qarvion located?**
+A: Qarvion is headquartered in Dhaka, Bangladesh, and operates as a remote-first creative partner serving clients across North America, Europe, Australia, and the Middle East.
+
+**Q: How do clients work with Qarvion?**
+A: Clients submit a project brief at https://qarvion.com/#contact or email qarviontech@gmail.com. Murshiduzzaman and the creative directors respond with custom proposals and milestones within 24 business hours.
+
+**Q: Who owns the intellectual property of completed projects?**
+A: Clients own 100% of all final deliverables and source files (Figma, Adobe Illustrator, After Effects, and code) upon project sign-off and milestone completion.
